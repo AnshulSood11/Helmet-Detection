@@ -32,9 +32,9 @@ Using conda environment is recommended. Follow these steps to get the code runni
 1. First, download the zip file.
 2. Download the following files into the project directory: 
 
-[mars-small128.pb](https://1drv.ms/u/s!ArJHK_Eldk0Cg3jyt-NR3xPErr_5?e=88vcgg)
+[mars-small128.pb](https://1drv.ms/u/c/024d7625f12b47b2/QbJHK_Eldk0ggAL4AQAAAAAA8rfjUd8TxK6_-Q)
 
-[full_yolo3_helmet_and_person.h5](https://1drv.ms/u/s!ArJHK_Eldk0Cg3cTEpkVoZyyxQzl?e=10MXuV)
+[full_yolo3_helmet_and_person.h5](https://1drv.ms/u/c/024d7625f12b47b2/QbJHK_Eldk0ggAL3AQAAAAAAExKZFaGcssUM5Q)
 
 3. Run the following command to create a conda environmnet:
 ```bash
@@ -127,7 +127,7 @@ The configuration file is a json file, which looks like this:
 The model section defines the type of the model to construct as well as other parameters of the model such as the input image size and the list of anchors. The `labels` setting lists the labels to be trained on. Only images, which has labels being listed, are fed to the network. The rest images are simply ignored. By this way, a Dog Detector can easily be trained using VOC or COCO dataset by setting `labels` to `['dog']`.
 
 Download pretrained weights for backend at:
-[backend.h5](https://1drv.ms/u/s!ArJHK_Eldk0Cg3nUkkHZcS7btEGb?e=BlFGvM)
+[backend.h5](https://1drv.ms/u/c/024d7625f12b47b2/QbJHK_Eldk0ggAL5AQAAAAAA1JJB2XEu27RBmw)
 
 **These weights must be put in the root folder of the repository. They are the pretrained weights for the backend only and will be loaded during model creation. The code does not work without these weights.**
 
